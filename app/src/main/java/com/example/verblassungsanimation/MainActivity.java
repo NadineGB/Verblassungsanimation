@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView bearimageView = findViewById(R.id.bear);
         ImageView catimageView = findViewById(R.id.cat);
-        bearimageView.animate().alpha(0).setDuration(2000);
 
         if (bearshowing) {
             bearshowing = false;
